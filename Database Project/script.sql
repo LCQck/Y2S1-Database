@@ -1,4 +1,4 @@
---         table creation script
+-- table creation script
 
 CREATE TABLE `citizen`(
     `id` INT UNIQUE KEY AUTO_INCREMENT,
@@ -77,8 +77,8 @@ CREATE TABLE `district`(
 
 
 
---         Important use cases
---  !!! both test data and SELECT statements are needed
+-- Important use cases
+-- !!! both test data and SELECT statements are needed
 -- use case 1
 INSERT INTO `district`( `district_name`, `region`, `risk_level`, `risk_level_name`)
 VALUES( "N-n", 1, 3, "high"),
@@ -229,7 +229,7 @@ WHERE testresult.doctor_name = doctor_name.`name`
 GROUP BY doctor_name.`hospital_name`
 
 -- use case 4
-N/A
+-- N/A
 -- use case 5
 
 INSERT INTO district( district_name, region, risk_level, risk_level_name)
@@ -306,7 +306,7 @@ SELECT
                 AND (testresult.sample_report_time BETWEEN '2021-10-09' AND '2021-10-24'))) transmission_rate
 
 
---          Extended use cases
+--  Extended use cases
 --  !!! both test data and SELECT statements are needed
 -- use case 1
 
