@@ -1,9 +1,1 @@
-*.md linguist-language=SQL 
-*.yml linguist-language=SQL 
-*.html linguist-language=SQL 
-*.js linguist-language=SQL 
-*.xml linguist-language=SQL
-*.css linguist-language=SQL 
 *.sql linguist-language=SQL
-*.uml linguist-language=SQL
-*.cmd linguist-language=SQL
