@@ -17,3 +17,6 @@ The schema comprises several tables that capture citizen details, test results, 
 - `tracking`: Tracks the movement of citizens, with references to the `basetower` table.
 - `basetower`: Represents base towers that track citizen movements, linked to districts.
 - `district`: Defines districts within the kingdom, including their risk levels.
+
+### ER Diagram
+![image](https://github.com/LCQck/Y2S1-Database/assets/128359137/4e085001-7007-4119-b0f7-4ea558e8df6b)
